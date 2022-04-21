@@ -1,0 +1,81 @@
+body {
+    background-color: #f0f0f0;
+    color: #202020;
+
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.page {
+    max-width: 700px;
+    margin: auto;
+}
+
+.photo {
+    height: 250px;
+    border-radius: 28px;
+    box-shadow: 2px 2px 10px
+}
+
+.person {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contacts {
+    background-color: bisque;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 28px;
+}
+
+.color-bisque {
+    background-color: bisque;
+}
+
+.color-green {
+    background-color: rgb(184, 224, 157);
+}
+
+.color-red {
+    background-color: rgb(226, 196, 255);
+}
+
+.color-blue {
+    background-color: rgb(189, 215, 255);
+}
+
+.card {
+    /* background-color: bisque; */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 28px;
+}
+
+a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+@media (max-width: 525px) {
+    .person {
+        display: block;
+        text-align: center;
+    }
+    .info {
+        margin-left: 0;
+    }
+}
